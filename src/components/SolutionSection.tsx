@@ -4,7 +4,7 @@ import { CheckCircle2, Scale, Battery, Heart, Activity, ShieldCheck } from "luci
 
 const SolutionSection = () => {
   return (
-    <section id="solution" className="bg-secondary py-16">
+    <section id="solution" className="bg-secondary">
       <div className="section-container">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12 animate-fade-in">

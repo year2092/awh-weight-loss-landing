@@ -5,7 +5,7 @@ import { ChevronRight, CheckCircle } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section id="hero" className="bg-gradient-to-b from-secondary to-white relative overflow-hidden pt-8 md:pt-16">
+    <section id="hero" className="bg-gradient-to-b from-secondary to-white relative overflow-hidden">
       <div className="section-container relative z-10">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="space-y-6 animate-fade-in">
@@ -54,7 +54,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-0 w-full h-16 bg-gradient-to-t from-white to-transparent"></div>
     </section>
   );
 };

@@ -5,7 +5,7 @@ import { Lock } from "lucide-react";
 
 const CtaSection = () => {
   return (
-    <section id="cta" className="bg-accent text-white py-16">
+    <section id="cta" className="bg-accent text-white">
       <div className="section-container">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="font-bold mb-6">
@@ -17,7 +17,7 @@ const CtaSection = () => {
           </p>
           
           <div className="flex flex-col items-center mb-8">
-            <Button asChild size="lg" className="bg-white text-accent hover:bg-gray-100 hover:text-accent-dark shadow-lg mb-4 text-lg px-8 py-6 h-auto animate-pulse">
+            <Button asChild size="lg" className="bg-white text-accent hover:bg-gray-100 hover:text-accent-dark shadow-lg mb-4 text-lg px-8 py-6 h-auto">
               <a href="#consultation-form">Claim Your Free Consultation & Start Today!</a>
             </Button>
             
@@ -27,7 +27,7 @@ const CtaSection = () => {
             </div>
           </div>
           
-          <div id="consultation-form" className="bg-white text-gray-800 rounded-lg shadow-xl p-8 animate-fade-in">
+          <div id="consultation-form" className="bg-white text-gray-800 rounded-lg shadow-xl p-8">
             <h3 className="text-2xl font-semibold mb-6">Take Your First Step Today</h3>
             
             <form className="space-y-4">

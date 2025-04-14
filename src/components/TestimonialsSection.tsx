@@ -26,7 +26,7 @@ const TestimonialsSection = () => {
   ];
 
   return (
-    <section id="testimonials" className="bg-white py-16">
+    <section id="testimonials" className="bg-white">
       <div className="section-container">
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="font-bold text-gray-800 mb-6">
@@ -40,7 +40,7 @@ const TestimonialsSection = () => {
         
         <div className="grid md:grid-cols-3 gap-6 mb-12">
           {testimonials.map((testimonial, index) => (
-            <Card key={index} className="overflow-hidden border-0 shadow-md transition-all duration-300 hover:shadow-lg hover-scale">
+            <Card key={index} className="overflow-hidden border-0 shadow-md transition-all duration-300 hover:shadow-lg">
               <CardContent className="p-0">
                 <div className="aspect-[3/2] relative">
                   <img 

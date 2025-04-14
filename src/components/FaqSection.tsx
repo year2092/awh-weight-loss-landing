@@ -36,7 +36,7 @@ const FaqSection = () => {
   ];
 
   return (
-    <section id="faqs" className="bg-secondary py-16">
+    <section id="faqs" className="bg-secondary">
       <div className="section-container">
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="font-bold text-gray-800 mb-6">
