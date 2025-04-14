@@ -5,7 +5,7 @@ const ProblemSection = () => {
   return (
     <section id="problem" className="bg-white py-16">
       <div className="section-container">
-        <div className="max-w-3xl mx-auto text-center mb-12 animate-fade-in">
+        <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="font-bold text-gray-800 mb-6">
             Stuck in the Weight Loss Trap? <span className="text-accent">(It's Not Your Fault.)</span>
           </h2>
